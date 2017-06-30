@@ -7,3 +7,10 @@ print "[$tor]";
 
 chomp $tor;
 print "[$tor]";
+
+## Using chop
+my $sung = "onion";
+print "[$sung]";
+
+chop $sung;
+print "[$sung]";
